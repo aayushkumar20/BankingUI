@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F57844B2AE238730031A481 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57844A2AE238730031A481 /* Card.swift */; };
+		2F57844D2AE2396B0031A481 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57844C2AE2396B0031A481 /* Expense.swift */; };
+		2F57844F2AE240FA0031A481 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57844E2AE240FA0031A481 /* Home.swift */; };
+		2F5784522AE252520031A481 /* OffsetReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5784512AE252520031A481 /* OffsetReader.swift */; };
 		2F702F312AE2337800A80F3F /* BankingUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F702F302AE2337800A80F3F /* BankingUIApp.swift */; };
 		2F702F332AE2337800A80F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F702F322AE2337800A80F3F /* ContentView.swift */; };
 		2F702F352AE2337900A80F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F702F342AE2337900A80F3F /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F57844A2AE238730031A481 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2F57844C2AE2396B0031A481 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		2F57844E2AE240FA0031A481 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2F5784512AE252520031A481 /* OffsetReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetReader.swift; sourceTree = "<group>"; };
 		2F702F2D2AE2337800A80F3F /* BankingUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F702F302AE2337800A80F3F /* BankingUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingUIApp.swift; sourceTree = "<group>"; };
 		2F702F322AE2337800A80F3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F5784482AE238390031A481 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F57844A2AE238730031A481 /* Card.swift */,
+				2F57844C2AE2396B0031A481 /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F5784492AE2384E0031A481 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F57844E2AE240FA0031A481 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F5784502AE252340031A481 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2F5784512AE252520031A481 /* OffsetReader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		2F702F242AE2337800A80F3F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +84,9 @@
 		2F702F2F2AE2337800A80F3F /* BankingUI */ = {
 			isa = PBXGroup;
 			children = (
+				2F5784502AE252340031A481 /* Helpers */,
+				2F5784492AE2384E0031A481 /* View */,
+				2F5784482AE238390031A481 /* Model */,
 				2F702F302AE2337800A80F3F /* BankingUIApp.swift */,
 				2F702F322AE2337800A80F3F /* ContentView.swift */,
 				2F702F342AE2337900A80F3F /* Assets.xcassets */,
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F57844D2AE2396B0031A481 /* Expense.swift in Sources */,
+				2F5784522AE252520031A481 /* OffsetReader.swift in Sources */,
 				2F702F332AE2337800A80F3F /* ContentView.swift in Sources */,
+				2F57844F2AE240FA0031A481 /* Home.swift in Sources */,
+				2F57844B2AE238730031A481 /* Card.swift in Sources */,
 				2F702F312AE2337800A80F3F /* BankingUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

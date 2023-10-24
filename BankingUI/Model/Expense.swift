@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct Expense: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+/// Expense Model
 
-#Preview {
-    Expense()
+struct Expense: Identifiable, Hashable, Equatable {
+    var id = UUID().uuidString
+    var amountSpent: String
+    var product: String
+    var productIcon: String
+    var spedType: String
 }
