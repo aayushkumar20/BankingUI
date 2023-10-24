@@ -32,7 +32,7 @@ var sampleCards: [Card] = [
         Expense(amountSpent: "₹ 50", product: "Instagram", productIcon: "Instagram", spedType: "Reels and shopping"),
         Expense(amountSpent: "₹ 350", product: "Netflix", productIcon: "Netflix", spedType: "TV")
     ]),
-    .init(cardName: "Mother", cardColor: Color("Card 3"), cardBalance: "$ 150000", expenses: [
+    .init(cardName: "Mother", cardColor: Color("Card 3"), cardBalance: "₹ 150000", expenses: [
         Expense(amountSpent: "₹ 300", product: "Apple Service", productIcon: "Apple", spedType: "Apple TV"),
         Expense(amountSpent: "₹ 500", product: "Figma", productIcon: "Figma", spedType: "Knit deign"),
         Expense(amountSpent: "₹ 900", product: "Netflix", productIcon: "Netflix", spedType: "Subscription")
